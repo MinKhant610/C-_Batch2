@@ -1,0 +1,7 @@
+programming => problem solving 
+C++ => static type => compiler
+hello world
+
+compiler => static type langauge 
+object code 
+# => header file 
