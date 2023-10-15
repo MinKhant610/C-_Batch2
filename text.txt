@@ -5,3 +5,6 @@ hello world
 compiler => static type langauge 
 object code 
 # => header file 
+
+single line comment => // abcde
+multi line comment => /* abcde  */ 
