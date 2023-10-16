@@ -1,0 +1,5 @@
+const float PI = 3.14;
+string first_name => snake case
+string firstName => cammel case
+NAME => ALL CAP
+function => firstName => cammel case
