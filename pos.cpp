@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+// programming rule => DRY => don't repeat yourself
+
+void cashBack(int price){
+    int user_money;
+    cout << "Enter your money : ";
+    cin >> user_money;
+    cout << "Cash back " << user_money - price << endl;
+    cout << "Thank for visiting ..." << endl;
+}
+
 int main(){
     int speed = 700;
     int shark = 1500;
@@ -19,24 +29,15 @@ int main(){
 
     switch(user_input){
         case 1 :
-        cout << "Enter your money : ";
-        cin >> user_money;
-        cout << "Cash back " << user_money - speed << endl;
-        cout << "Thank for visiting ..." << endl;
+        cashBack(speed);
         break;
 
         case 2 :
-        cout << "Enter your money : ";
-        cin >> user_money;
-        cout << "Cash back " << user_money - shark << endl;
-        cout << "Thank for visiting ..." << endl;
+        cashBack(shark);
         break;  
 
         case 3 :
-        cout << "Enter your money : ";
-        cin >> user_money;
-        cout << "Cash back " << user_money - cola << endl;
-        cout << "Thank for visiting ..." << endl;
+        cashBack(cola);
         break;
 
         default : 
